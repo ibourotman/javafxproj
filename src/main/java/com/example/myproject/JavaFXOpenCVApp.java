@@ -31,6 +31,7 @@ public class JavaFXOpenCVApp extends Application {
         ImageView imageView = new ImageView(writableImage);
         StackPane root = new StackPane(imageView);
         Scene scene = new Scene(root, 300, 300);
+        System.out.print(false);
 
         primaryStage.setTitle("JavaFX with OpenCV");
         primaryStage.setScene(scene);
